@@ -3,13 +3,11 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { WindFarmTopTenComponent } from './windFarmTopTen/windFarmTopTen.component';
-import { TreemapComponent } from './treemap/treemap.component';
+import { SplitterComponent } from './splitter/splitter.component';
 
 @NgModule({
   declarations: [
-    WindFarmTopTenComponent,
-    TreemapComponent
+    SplitterComponent
   ],
   imports: [
     BrowserModule,
@@ -18,4 +16,4 @@ import { TreemapComponent } from './treemap/treemap.component';
   ],
   providers: [],
 })
-export default class ViewSamplesModule {}
+export default class ViewLabModule {}

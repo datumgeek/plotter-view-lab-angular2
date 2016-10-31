@@ -1,34 +1,37 @@
 {
-  "name": "plotter-view-samples-angular2",
+  "name": "plotter-view-lab-angular2",
   "version": "1.0.7",
-  "description": "a place where you can find example views that can be plugged into the plotter platform (angular2 flavor).",
+  "description": "a place to rapidly experiment with angular2 components.",
   "keywords": [
     "angular2",
     "plotter",
     "typescript"
   ],
-  "homepage": "http://datumgeek.github.io/plotter-view-samples-angular2",
+  "homepage": "http://datumgeek.github.io/plotter-view-lab-angular2",
   "bugs": {
-    "url": "https://github.com/datumgeek/plotter-view-samples-angular2/issues"
+    "url": "https://github.com/datumgeek/plotter-view-lab-angular2/issues"
   },
   "scripts": {
     "build": "tsc -w",
-    "serve": "http-server -p 9010 --cors"
+    "serve": "http-server -p 9020 --cors"
   },
   "license": "MIT",
   "author": "Datum Geek (http://datumgeek.github.io)",
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/datumgeek/plotter-view-samples-angular2"
+    "url": "http://github.com/datumgeek/plotter-view-lab-angular2"
   },
   "devDependencies": {
     "@angular/common": "^2.1.2",
     "@angular/core": "2.1.2",
+    "@angular/forms": "^2.1.2",
+    "@angular/http": "^2.1.2",
+    "@angular/platform-browser": "^2.1.2",
     "@angular/platform-browser-dynamic": "^2.1.2",
+    "d3": "^3.5.17",
     "rxjs": "^5.0.0-rc.1",
     "tslint": "^3.15.1",
-    "typescript": "^2.0.6",
-    "d3": "^3.5.17"
+    "typescript": "^2.0.6"
   }
 }
