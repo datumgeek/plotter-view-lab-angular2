@@ -1,7 +1,7 @@
 import { Component, ElementRef } from '@angular/core';
 
 @Component({
-    selector: 'p-left-right-splitter',
+    selector: 'v-lab-left-right-splitter',
     host: {
         '(dragstart)': 'onDragStart($event)',
         '(dragend)': 'onDragEnd($event)',

@@ -72,7 +72,7 @@ define(["require", "exports", '@angular/core'], function (require, exports, core
         ], UpDownSplitterComponent.prototype, "splitterHeight", void 0);
         UpDownSplitterComponent = __decorate([
             core_1.Component({
-                selector: 'p-up-down-splitter',
+                selector: 'v-lab-up-down-splitter',
                 host: {
                     '(dragstart)': 'onDragStart($event)',
                     '(dragend)': 'onDragEnd($event)',

@@ -3,13 +3,13 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'v-lab-up-down-splitter-tester',
     template: `
-        <p-left-right-splitter>
+        <v-lab-left-right-splitter>
             <div left-pane>
                 blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, blar, 
             </div>
             
             <div right-pane>
-                <p-up-down-splitter [upHeight]="600" [splitterHeight]="50">
+                <v-lab-up-down-splitter [upHeight]="600" [splitterHeight]="50">
                     <div up-pane>
                         be be be
                         be be be
@@ -46,9 +46,9 @@ import { Component } from '@angular/core';
                         down down down
                         down down down
                     </div>
-                </p-up-down-splitter>
+                </v-lab-up-down-splitter>
             </div>
-        </p-left-right-splitter>
+        </v-lab-left-right-splitter>
     `,
     styles: [`
         :host {

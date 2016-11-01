@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'v-lab-splitter-tester',
     template: `
-        <p-left-right-splitter>
+        <v-lab-left-right-splitter>
             <div left-pane>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris metus, feugiat sed posuere vel, porta ac lacus. Nunc convallis luctus felis, vitae ullamcorper ex imperdiet suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris molestie, lectus eu tincidunt vulputate, ligula mi sodales tortor, a facilisis lectus purus euismod arcu. Ut euismod libero risus, id interdum lectus iaculis nec. Sed et justo vel nisl vestibulum posuere ac a lectus. Phasellus commodo egestas varius. Sed eget nulla elit. Fusce sagittis condimentum suscipit. Quisque ut dui id dui pellentesque scelerisque a id sem.
 
@@ -26,7 +26,7 @@ import { Component } from '@angular/core';
 
                 Nam arcu metus, molestie et tempor vel, rhoncus sit amet est. Aliquam non tincidunt odio. Etiam ultrices aliquet condimentum. Pellentesque eleifend felis non neque condimentum, consequat porttitor velit convallis. Sed iaculis tempus mi, ac vulputate purus. Integer faucibus justo ut varius pellentesque. Fusce rutrum nunc at gravida tempus. Ut rhoncus sapien ac mollis luctus. Vivamus lorem turpis, tempor at tortor at, ornare rhoncus nisl. Maecenas blandit vehicula nibh, vitae dapibus tellus egestas ac. Duis sed justo neque. Maecenas eu quam et odio accumsan ultrices. Donec suscipit purus ut porta mattis. Praesent id augue ut tortor tempus volutpat non sit amet est. Suspendisse fermentum convallis magna feugiat volutpat.
             </div>
-        </p-left-right-splitter>
+        </v-lab-left-right-splitter>
     `,
     styles: [`
         :host {

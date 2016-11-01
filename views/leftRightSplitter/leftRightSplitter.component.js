@@ -54,7 +54,7 @@ define(["require", "exports", '@angular/core'], function (require, exports, core
         };
         LeftRightSplitterComponent = __decorate([
             core_1.Component({
-                selector: 'p-left-right-splitter',
+                selector: 'v-lab-left-right-splitter',
                 host: {
                     '(dragstart)': 'onDragStart($event)',
                     '(dragend)': 'onDragEnd($event)',

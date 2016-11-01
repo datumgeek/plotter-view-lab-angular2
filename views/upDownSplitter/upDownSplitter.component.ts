@@ -1,7 +1,7 @@
 import { Component, ElementRef, Input, OnChanges } from '@angular/core';
 
 @Component({
-    selector: 'p-up-down-splitter',
+    selector: 'v-lab-up-down-splitter',
     host: {
         '(dragstart)': 'onDragStart($event)',
         '(dragend)': 'onDragEnd($event)',
