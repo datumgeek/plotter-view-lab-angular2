@@ -3,11 +3,17 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { SplitterComponent } from './splitter/splitter.component';
+import { LeftRightSplitterComponent } from './leftRightSplitter/leftRightSplitter.component';
+import { UpDownSplitterComponent } from './upDownSplitter/upDownSplitter.component';
+import { SplitterTesterComponent } from './splitterTester/splitterTester.component';
+import { UpDownSplitterTesterComponent } from './upDownSplitterTester/upDownSplitterTester.component';
 
 @NgModule({
   declarations: [
-    SplitterComponent
+    LeftRightSplitterComponent
+    , SplitterTesterComponent
+    , UpDownSplitterComponent
+    , UpDownSplitterTesterComponent
   ],
   imports: [
     BrowserModule,

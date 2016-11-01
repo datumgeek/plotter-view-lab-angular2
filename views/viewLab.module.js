@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-define(["require", "exports", '@angular/platform-browser', '@angular/core', '@angular/forms', '@angular/http', './splitter/splitter.component'], function (require, exports, platform_browser_1, core_1, forms_1, http_1, splitter_component_1) {
+define(["require", "exports", '@angular/platform-browser', '@angular/core', '@angular/forms', '@angular/http', './leftRightSplitter/leftRightSplitter.component', './upDownSplitter/upDownSplitter.component', './splitterTester/splitterTester.component', './upDownSplitterTester/upDownSplitterTester.component'], function (require, exports, platform_browser_1, core_1, forms_1, http_1, leftRightSplitter_component_1, upDownSplitter_component_1, splitterTester_component_1, upDownSplitterTester_component_1) {
     "use strict";
     var ViewLabModule = (function () {
         function ViewLabModule() {
@@ -15,7 +15,10 @@ define(["require", "exports", '@angular/platform-browser', '@angular/core', '@an
         ViewLabModule = __decorate([
             core_1.NgModule({
                 declarations: [
-                    splitter_component_1.SplitterComponent
+                    leftRightSplitter_component_1.LeftRightSplitterComponent,
+                    splitterTester_component_1.SplitterTesterComponent,
+                    upDownSplitter_component_1.UpDownSplitterComponent,
+                    upDownSplitterTester_component_1.UpDownSplitterTesterComponent
                 ],
                 imports: [
                     platform_browser_1.BrowserModule,
