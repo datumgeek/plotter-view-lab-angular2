@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-define(["require", "exports", '@angular/platform-browser', '@angular/core', '@angular/forms', '@angular/http', './leftRightSplitter/leftRightSplitter.component', './upDownSplitter/upDownSplitter.component', './splitterTester/splitterTester.component', './upDownSplitterTester/upDownSplitterTester.component'], function (require, exports, platform_browser_1, core_1, forms_1, http_1, leftRightSplitter_component_1, upDownSplitter_component_1, splitterTester_component_1, upDownSplitterTester_component_1) {
+define(["require", "exports", '@angular/common', '@angular/core', '@angular/forms', '@angular/http', './leftRightSplitter/leftRightSplitter.component', './upDownSplitter/upDownSplitter.component', './splitterTester/splitterTester.component', './upDownSplitterTester/upDownSplitterTester.component'], function (require, exports, common_1, core_1, forms_1, http_1, leftRightSplitter_component_1, upDownSplitter_component_1, splitterTester_component_1, upDownSplitterTester_component_1) {
     "use strict";
     var ViewLabModule = (function () {
         function ViewLabModule() {
@@ -21,7 +21,7 @@ define(["require", "exports", '@angular/platform-browser', '@angular/core', '@an
                     upDownSplitterTester_component_1.UpDownSplitterTesterComponent
                 ],
                 imports: [
-                    platform_browser_1.BrowserModule,
+                    common_1.CommonModule,
                     forms_1.FormsModule,
                     http_1.HttpModule
                 ],
